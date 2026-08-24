@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.955" tests="23" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:26:09" tests="0" file="cypress/e2e/http-status.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="HTTP status checks" timestamp="2026-07-06T10:26:09" tests="23" time="0.953" failures="0">
+    <testcase name="HTTP status checks returns 200 for /" time="0.064" classname="returns 200 for /">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/" time="0.045" classname="returns 200 for /en/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/" time="0.038" classname="returns 200 for /cy/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/accessibility" time="0.034" classname="returns 200 for /en/accessibility">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/cookie-settings" time="0.034" classname="returns 200 for /en/cookie-settings">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/privacy-policy" time="0.033" classname="returns 200 for /en/privacy-policy">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/terms-and-conditions" time="0.034" classname="returns 200 for /en/terms-and-conditions">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/accessibility" time="0.034" classname="returns 200 for /cy/accessibility">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/cookie-settings" time="0.033" classname="returns 200 for /cy/cookie-settings">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/privacy-policy" time="0.037" classname="returns 200 for /cy/privacy-policy">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/terms-and-conditions" time="0.035" classname="returns 200 for /cy/terms-and-conditions">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/articles/" time="0.034" classname="returns 200 for /en/articles/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/articles/" time="0.033" classname="returns 200 for /cy/articles/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/erthyglau/" time="0.035" classname="returns 200 for /cy/erthyglau/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/services/" time="0.034" classname="returns 200 for /en/services/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/services/" time="0.033" classname="returns 200 for /cy/services/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/information/downloads/" time="0.035" classname="returns 200 for /en/information/downloads/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/information/downloads/" time="0.034" classname="returns 200 for /cy/information/downloads/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/information/contact-us/" time="0.033" classname="returns 200 for /en/information/contact-us/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/information/contact-us/" time="0.034" classname="returns 200 for /cy/information/contact-us/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/gwybodaeth/" time="0.034" classname="returns 200 for /cy/gwybodaeth/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /cy/information/" time="0.044" classname="returns 200 for /cy/information/">
+    </testcase>
+    <testcase name="HTTP status checks returns 200 for /en/information/" time="0.032" classname="returns 200 for /en/information/">
+    </testcase>
+  </testsuite>
+</testsuites>

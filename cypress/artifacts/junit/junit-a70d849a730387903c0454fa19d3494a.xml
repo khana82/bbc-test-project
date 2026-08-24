@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.461" tests="23" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:26:21" tests="0" file="cypress/e2e/seo.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="SEO + meta coverage" timestamp="2026-07-06T10:26:21" tests="23" time="1.450" failures="0">
+    <testcase name="SEO + meta coverage has title and meta tags on /" time="0.117" classname="has title and meta tags on /">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/" time="0.057" classname="has title and meta tags on /en/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/" time="0.053" classname="has title and meta tags on /cy/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/accessibility" time="0.056" classname="has title and meta tags on /en/accessibility">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/cookie-settings" time="0.055" classname="has title and meta tags on /en/cookie-settings">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/privacy-policy" time="0.051" classname="has title and meta tags on /en/privacy-policy">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/terms-and-conditions" time="0.052" classname="has title and meta tags on /en/terms-and-conditions">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/accessibility" time="0.054" classname="has title and meta tags on /cy/accessibility">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/cookie-settings" time="0.051" classname="has title and meta tags on /cy/cookie-settings">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/privacy-policy" time="0.052" classname="has title and meta tags on /cy/privacy-policy">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/terms-and-conditions" time="0.049" classname="has title and meta tags on /cy/terms-and-conditions">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/articles/" time="0.051" classname="has title and meta tags on /en/articles/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/articles/" time="0.052" classname="has title and meta tags on /cy/articles/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/erthyglau/" time="0.052" classname="has title and meta tags on /cy/erthyglau/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/services/" time="0.057" classname="has title and meta tags on /en/services/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/services/" time="0.050" classname="has title and meta tags on /cy/services/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/information/downloads/" time="0.059" classname="has title and meta tags on /en/information/downloads/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/information/downloads/" time="0.056" classname="has title and meta tags on /cy/information/downloads/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/information/contact-us/" time="0.046" classname="has title and meta tags on /en/information/contact-us/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/information/contact-us/" time="0.048" classname="has title and meta tags on /cy/information/contact-us/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/gwybodaeth/" time="0.047" classname="has title and meta tags on /cy/gwybodaeth/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /cy/information/" time="0.048" classname="has title and meta tags on /cy/information/">
+    </testcase>
+    <testcase name="SEO + meta coverage has title and meta tags on /en/information/" time="0.048" classname="has title and meta tags on /en/information/">
+    </testcase>
+  </testsuite>
+</testsuites>

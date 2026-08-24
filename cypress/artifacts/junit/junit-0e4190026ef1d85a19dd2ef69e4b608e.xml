@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.385" tests="23" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:27:40" tests="0" file="cypress/e2e/visual-tablet.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Tablet visual baselines" timestamp="2026-07-06T10:27:40" tests="23" time="1.380" failures="0">
+    <testcase name="Tablet visual baselines renders / on tablet" time="0.078" classname="renders / on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/ on tablet" time="0.055" classname="renders /en/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/ on tablet" time="0.051" classname="renders /cy/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/accessibility on tablet" time="0.045" classname="renders /en/accessibility on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/cookie-settings on tablet" time="0.046" classname="renders /en/cookie-settings on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/privacy-policy on tablet" time="0.051" classname="renders /en/privacy-policy on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/terms-and-conditions on tablet" time="0.049" classname="renders /en/terms-and-conditions on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/accessibility on tablet" time="0.050" classname="renders /cy/accessibility on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/cookie-settings on tablet" time="0.046" classname="renders /cy/cookie-settings on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/privacy-policy on tablet" time="0.047" classname="renders /cy/privacy-policy on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/terms-and-conditions on tablet" time="0.051" classname="renders /cy/terms-and-conditions on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/articles/ on tablet" time="0.048" classname="renders /en/articles/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/articles/ on tablet" time="0.046" classname="renders /cy/articles/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/erthyglau/ on tablet" time="0.049" classname="renders /cy/erthyglau/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/services/ on tablet" time="0.053" classname="renders /en/services/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/services/ on tablet" time="0.050" classname="renders /cy/services/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/information/downloads/ on tablet" time="0.061" classname="renders /en/information/downloads/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/information/downloads/ on tablet" time="0.048" classname="renders /cy/information/downloads/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/information/contact-us/ on tablet" time="0.045" classname="renders /en/information/contact-us/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/information/contact-us/ on tablet" time="0.047" classname="renders /cy/information/contact-us/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/gwybodaeth/ on tablet" time="0.046" classname="renders /cy/gwybodaeth/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /cy/information/ on tablet" time="0.048" classname="renders /cy/information/ on tablet">
+    </testcase>
+    <testcase name="Tablet visual baselines renders /en/information/ on tablet" time="0.045" classname="renders /en/information/ on tablet">
+    </testcase>
+  </testsuite>
+</testsuites>

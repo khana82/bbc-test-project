@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.360" tests="23" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:27:34" tests="0" file="cypress/e2e/visual-content.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Content page visuals" timestamp="2026-07-06T10:27:34" tests="23" time="1.355" failures="0">
+    <testcase name="Content page visuals renders /" time="0.090" classname="renders /">
+    </testcase>
+    <testcase name="Content page visuals renders /en/" time="0.055" classname="renders /en/">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/" time="0.048" classname="renders /cy/">
+    </testcase>
+    <testcase name="Content page visuals renders /en/accessibility" time="0.045" classname="renders /en/accessibility">
+    </testcase>
+    <testcase name="Content page visuals renders /en/cookie-settings" time="0.048" classname="renders /en/cookie-settings">
+    </testcase>
+    <testcase name="Content page visuals renders /en/privacy-policy" time="0.044" classname="renders /en/privacy-policy">
+    </testcase>
+    <testcase name="Content page visuals renders /en/terms-and-conditions" time="0.045" classname="renders /en/terms-and-conditions">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/accessibility" time="0.044" classname="renders /cy/accessibility">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/cookie-settings" time="0.044" classname="renders /cy/cookie-settings">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/privacy-policy" time="0.047" classname="renders /cy/privacy-policy">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/terms-and-conditions" time="0.046" classname="renders /cy/terms-and-conditions">
+    </testcase>
+    <testcase name="Content page visuals renders /en/articles/" time="0.049" classname="renders /en/articles/">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/articles/" time="0.045" classname="renders /cy/articles/">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/erthyglau/" time="0.045" classname="renders /cy/erthyglau/">
+    </testcase>
+    <testcase name="Content page visuals renders /en/services/" time="0.052" classname="renders /en/services/">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/services/" time="0.044" classname="renders /cy/services/">
+    </testcase>
+    <testcase name="Content page visuals renders /en/information/downloads/" time="0.060" classname="renders /en/information/downloads/">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/information/downloads/" time="0.049" classname="renders /cy/information/downloads/">
+    </testcase>
+    <testcase name="Content page visuals renders /en/information/contact-us/" time="0.045" classname="renders /en/information/contact-us/">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/information/contact-us/" time="0.046" classname="renders /cy/information/contact-us/">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/gwybodaeth/" time="0.045" classname="renders /cy/gwybodaeth/">
+    </testcase>
+    <testcase name="Content page visuals renders /cy/information/" time="0.046" classname="renders /cy/information/">
+    </testcase>
+    <testcase name="Content page visuals renders /en/information/" time="0.045" classname="renders /en/information/">
+    </testcase>
+  </testsuite>
+</testsuites>

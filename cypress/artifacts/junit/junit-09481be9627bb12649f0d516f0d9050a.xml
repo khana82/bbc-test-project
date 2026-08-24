@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.573" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:26:04" tests="0" file="cypress/e2e/cookies.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cookie behavior" timestamp="2026-07-06T10:26:04" tests="5" time="0.571" failures="0">
+    <testcase name="Cookie behavior does not set auth cookies on public pages" time="0.130" classname="does not set auth cookies on public pages">
+    </testcase>
+    <testcase name="Cookie behavior updates language cookie when switching languages" time="0.133" classname="updates language cookie when switching languages">
+    </testcase>
+    <testcase name="Cookie behavior keeps Polylang cookie aligned with /en/ if present" time="0.054" classname="keeps Polylang cookie aligned with /en/ if present">
+    </testcase>
+    <testcase name="Cookie behavior keeps Polylang cookie aligned with /cy/ if present" time="0.056" classname="keeps Polylang cookie aligned with /cy/ if present">
+    </testcase>
+    <testcase name="Cookie behavior sets language cookie from the selector and bypasses the selector" time="0.163" classname="sets language cookie from the selector and bypasses the selector">
+    </testcase>
+  </testsuite>
+</testsuites>

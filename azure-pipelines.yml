@@ -1,0 +1,95 @@
+trigger: none
+
+pr:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - stage: cypress
+    displayName: BBC Cypress checks
+    jobs:
+      - job: browser_matrix
+        displayName: Cypress ($(browser))
+        strategy:
+          matrix:
+            chrome:
+              browser: chrome
+              make_target: e2e-chrome
+            firefox:
+              browser: firefox
+              make_target: e2e-firefox
+            edge:
+              browser: edge
+              make_target: e2e-edge
+        steps:
+          - checkout: self
+
+          - script: |
+              set -e
+              make $(make_target)
+            displayName: Run BBC Cypress checks
+
+          - script: |
+              if [ -d cypress/artifacts/junit ] && ls cypress/artifacts/junit/*.xml >/dev/null 2>&1; then
+                echo "##vso[task.setvariable variable=HAS_CYPRESS_JUNIT]true"
+              else
+                echo "##vso[task.setvariable variable=HAS_CYPRESS_JUNIT]false"
+              fi
+
+              if [ -d cypress/artifacts ]; then
+                echo "##vso[task.setvariable variable=HAS_CYPRESS_ARTIFACTS]true"
+              else
+                echo "##vso[task.setvariable variable=HAS_CYPRESS_ARTIFACTS]false"
+              fi
+            displayName: Detect Cypress artifacts
+            condition: always()
+
+          - task: PublishTestResults@2
+            displayName: Publish JUnit results
+            condition: and(always(), eq(variables['HAS_CYPRESS_JUNIT'], 'true'))
+            inputs:
+              testResultsFormat: JUnit
+              testResultsFiles: cypress/artifacts/junit/*.xml
+              testRunTitle: BBC Cypress $(browser)
+              mergeTestResults: true
+
+          - task: PublishPipelineArtifact@1
+            displayName: Publish Cypress artifacts
+            condition: and(always(), eq(variables['HAS_CYPRESS_ARTIFACTS'], 'true'))
+            inputs:
+              targetPath: cypress/artifacts
+              artifactName: cypress-$(browser)
+
+  - stage: lighthouse
+    displayName: BBC Lighthouse checks
+    dependsOn: []
+    jobs:
+      - job: audit
+        displayName: Audit BBC pages
+        steps:
+          - checkout: self
+
+          - script: |
+              set -e
+              make lighthouse
+            displayName: Run Lighthouse CI
+
+          - script: |
+              if [ -d lighthouse/reports ]; then
+                echo "##vso[task.setvariable variable=HAS_LIGHTHOUSE_REPORTS]true"
+              else
+                echo "##vso[task.setvariable variable=HAS_LIGHTHOUSE_REPORTS]false"
+              fi
+            displayName: Detect Lighthouse reports
+            condition: always()
+
+          - task: PublishPipelineArtifact@1
+            displayName: Publish Lighthouse reports
+            condition: and(always(), eq(variables['HAS_LIGHTHOUSE_REPORTS'], 'true'))
+            inputs:
+              targetPath: lighthouse/reports
+              artifactName: lighthouse-reports

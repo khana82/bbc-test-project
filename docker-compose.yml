@@ -1,0 +1,52 @@
+services:
+  cypress-chrome:
+    image: cypress/browsers:node-20.13.0-chrome-124.0.6367.155-1-ff-125.0.3-edge-124.0.2478.80-1
+    platform: linux/amd64
+    profiles:
+      - test
+    working_dir: /e2e
+    environment:
+      CYPRESS_baseUrl: https://www.bbc.co.uk
+    volumes:
+      - ./:/e2e
+    command: ["sh", "-c", "npm ci --legacy-peer-deps && if [ -n \"$${CYPRESS_SPEC}\" ]; then npx cypress run --browser chrome --spec \"$${CYPRESS_SPEC}\"; else npx cypress run --browser chrome; fi"]
+
+  cypress-firefox:
+    image: cypress/browsers:node-20.13.0-chrome-124.0.6367.155-1-ff-125.0.3-edge-124.0.2478.80-1
+    platform: linux/amd64
+    profiles:
+      - test
+    working_dir: /e2e
+    environment:
+      CYPRESS_baseUrl: https://www.bbc.co.uk
+    volumes:
+      - ./:/e2e
+    command: ["sh", "-c", "npm ci --legacy-peer-deps && if [ -n \"$${CYPRESS_SPEC}\" ]; then npx cypress run --browser firefox --spec \"$${CYPRESS_SPEC}\"; else npx cypress run --browser firefox; fi"]
+
+  cypress-edge:
+    image: cypress/browsers:node-20.13.0-chrome-124.0.6367.155-1-ff-125.0.3-edge-124.0.2478.80-1
+    platform: linux/amd64
+    profiles:
+      - test
+    working_dir: /e2e
+    environment:
+      CYPRESS_baseUrl: https://www.bbc.co.uk
+    volumes:
+      - ./:/e2e
+    command: ["sh", "-c", "npm ci --legacy-peer-deps && if [ -n \"$${CYPRESS_SPEC}\" ]; then npx cypress run --browser edge --spec \"$${CYPRESS_SPEC}\"; else npx cypress run --browser edge; fi"]
+
+  lighthouse:
+    image: patrickhulce/lhci-client
+    platform: linux/amd64
+    profiles:
+      - test
+    working_dir: /app
+    cap_add:
+      - SYS_ADMIN
+    environment:
+      LHCI_BUILD_CONTEXT__CURRENT_HASH: local
+      LHCI_BUILD_CONTEXT__CURRENT_BRANCH: local
+      LHCI_CHROME_FLAGS: "--no-sandbox --disable-dev-shm-usage --headless --disable-gpu"
+    volumes:
+      - ./:/app
+    command: ["lhci", "autorun", "--config=/app/lighthouserc.json"]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.914" tests="18" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:26:12" tests="0" file="cypress/e2e/navigation.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Navigation coverage" timestamp="2026-07-06T10:26:12" tests="18" time="1.909" failures="0">
+    <testcase name="Navigation coverage renders the current header and footer links on /en/" time="0.121" classname="renders the current header and footer links on /en/">
+    </testcase>
+    <testcase name="Navigation coverage renders the current header and footer links on /cy/" time="0.063" classname="renders the current header and footer links on /cy/">
+    </testcase>
+    <testcase name="Navigation coverage renders the current header and footer links on /en/services/" time="0.073" classname="renders the current header and footer links on /en/services/">
+    </testcase>
+    <testcase name="Navigation coverage renders the current header and footer links on /cy/services/" time="0.058" classname="renders the current header and footer links on /cy/services/">
+    </testcase>
+    <testcase name="Navigation coverage renders the current header and footer links on /en/information/" time="0.063" classname="renders the current header and footer links on /en/information/">
+    </testcase>
+    <testcase name="Navigation coverage renders the current header and footer links on /cy/information/" time="0.056" classname="renders the current header and footer links on /cy/information/">
+    </testcase>
+    <testcase name="Navigation coverage renders the current header and footer links on /en/articles/" time="0.059" classname="renders the current header and footer links on /en/articles/">
+    </testcase>
+    <testcase name="Navigation coverage renders the current header and footer links on /cy/articles/" time="0.056" classname="renders the current header and footer links on /cy/articles/">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /en/ via header-services-link" time="0.126" classname="navigates from /en/ via header-services-link">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /en/ via header-information-link" time="0.122" classname="navigates from /en/ via header-information-link">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /en/ via header-articles-link" time="0.123" classname="navigates from /en/ via header-articles-link">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /en/ via header-language-toggle" time="0.119" classname="navigates from /en/ via header-language-toggle">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /en/ via front-latest-articles-archive-link" time="0.121" classname="navigates from /en/ via front-latest-articles-archive-link">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /cy/ via header-services-link" time="0.122" classname="navigates from /cy/ via header-services-link">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /cy/ via header-information-link" time="0.122" classname="navigates from /cy/ via header-information-link">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /cy/ via header-articles-link" time="0.119" classname="navigates from /cy/ via header-articles-link">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /cy/ via header-language-toggle" time="0.121" classname="navigates from /cy/ via header-language-toggle">
+    </testcase>
+    <testcase name="Navigation coverage navigates from /cy/ via front-latest-articles-archive-link" time="0.123" classname="navigates from /cy/ via front-latest-articles-archive-link">
+    </testcase>
+  </testsuite>
+</testsuites>

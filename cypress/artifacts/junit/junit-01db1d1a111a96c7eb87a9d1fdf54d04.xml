@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.210" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:26:19" tests="0" file="cypress/e2e/related-content.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Related content on FAQs page" timestamp="2026-07-06T10:26:19" tests="2" time="0.209" failures="0">
+    <testcase name="Related content on FAQs page renders the English external guidance links" time="0.127" classname="renders the English external guidance links">
+    </testcase>
+    <testcase name="Related content on FAQs page renders the Welsh external guidance links" time="0.063" classname="renders the Welsh external guidance links">
+    </testcase>
+  </testsuite>
+</testsuites>

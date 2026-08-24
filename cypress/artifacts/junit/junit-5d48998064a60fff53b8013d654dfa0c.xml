@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.881" tests="25" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:26:16" tests="0" file="cypress/e2e/pages.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Content pages" timestamp="2026-07-06T10:26:16" tests="20" time="1.411" failures="0">
+    <testcase name="Content pages loads /en/accessibility" time="0.114" classname="loads /en/accessibility">
+    </testcase>
+    <testcase name="Content pages loads /en/cookie-settings" time="0.066" classname="loads /en/cookie-settings">
+    </testcase>
+    <testcase name="Content pages loads /en/privacy-policy" time="0.063" classname="loads /en/privacy-policy">
+    </testcase>
+    <testcase name="Content pages loads /en/terms-and-conditions" time="0.057" classname="loads /en/terms-and-conditions">
+    </testcase>
+    <testcase name="Content pages loads /cy/accessibility" time="0.057" classname="loads /cy/accessibility">
+    </testcase>
+    <testcase name="Content pages loads /cy/cookie-settings" time="0.056" classname="loads /cy/cookie-settings">
+    </testcase>
+    <testcase name="Content pages loads /cy/privacy-policy" time="0.057" classname="loads /cy/privacy-policy">
+    </testcase>
+    <testcase name="Content pages loads /cy/terms-and-conditions" time="0.058" classname="loads /cy/terms-and-conditions">
+    </testcase>
+    <testcase name="Content pages loads /en/articles/" time="0.059" classname="loads /en/articles/">
+    </testcase>
+    <testcase name="Content pages loads /cy/articles/" time="0.054" classname="loads /cy/articles/">
+    </testcase>
+    <testcase name="Content pages loads /cy/erthyglau/" time="0.058" classname="loads /cy/erthyglau/">
+    </testcase>
+    <testcase name="Content pages loads /en/services/" time="0.064" classname="loads /en/services/">
+    </testcase>
+    <testcase name="Content pages loads /cy/services/" time="0.059" classname="loads /cy/services/">
+    </testcase>
+    <testcase name="Content pages loads /en/information/downloads/" time="0.062" classname="loads /en/information/downloads/">
+    </testcase>
+    <testcase name="Content pages loads /cy/information/downloads/" time="0.057" classname="loads /cy/information/downloads/">
+    </testcase>
+    <testcase name="Content pages loads /en/information/contact-us/" time="0.054" classname="loads /en/information/contact-us/">
+    </testcase>
+    <testcase name="Content pages loads /cy/information/contact-us/" time="0.054" classname="loads /cy/information/contact-us/">
+    </testcase>
+    <testcase name="Content pages loads /cy/gwybodaeth/" time="0.054" classname="loads /cy/gwybodaeth/">
+    </testcase>
+    <testcase name="Content pages loads /cy/information/" time="0.054" classname="loads /cy/information/">
+    </testcase>
+    <testcase name="Content pages loads /en/information/" time="0.056" classname="loads /en/information/">
+    </testcase>
+  </testsuite>
+  <testsuite name="Homepage contact text" timestamp="2026-07-06T10:26:17" tests="2" time="0.136" failures="0">
+    <testcase name="Homepage contact text renders the contact text on /en/" time="0.061" classname="renders the contact text on /en/">
+    </testcase>
+    <testcase name="Homepage contact text renders the contact text on /cy/" time="0.055" classname="renders the contact text on /cy/">
+    </testcase>
+  </testsuite>
+  <testsuite name="Content page navigation" timestamp="2026-07-06T10:26:17" tests="3" time="0.329" failures="0">
+    <testcase name="Content page navigation switches language on a content page" time="0.126" classname="switches language on a content page">
+    </testcase>
+    <testcase name="Content page navigation footer links keep the current language" time="0.052" classname="footer links keep the current language">
+    </testcase>
+    <testcase name="Content page navigation logo returns to the language selector" time="0.122" classname="logo returns to the language selector">
+    </testcase>
+  </testsuite>
+</testsuites>

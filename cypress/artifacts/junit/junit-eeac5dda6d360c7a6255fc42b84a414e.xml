@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.076" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-07-06T10:26:06" tests="0" file="cypress/e2e/home.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Language selector landing" timestamp="2026-07-06T10:26:06" tests="1" time="0.284" failures="0">
+    <testcase name="Language selector landing links to both language homes and matches the baseline" time="0.275" classname="links to both language homes and matches the baseline">
+    </testcase>
+  </testsuite>
+  <testsuite name="Homepage hero banner" timestamp="2026-07-06T10:26:07" tests="6" time="0.361" failures="0">
+    <testcase name="Homepage hero banner renders the English hero buttons" time="0.056" classname="renders the English hero buttons">
+    </testcase>
+    <testcase name="Homepage hero banner loads content from the English Cattle service login button" time="0.051" classname="loads content from the English Cattle service login button">
+    </testcase>
+    <testcase name="Homepage hero banner loads content from the English Sheep, goats and deer service button" time="0.052" classname="loads content from the English Sheep, goats and deer service button">
+    </testcase>
+    <testcase name="Homepage hero banner renders the Welsh hero buttons" time="0.055" classname="renders the Welsh hero buttons">
+    </testcase>
+    <testcase name="Homepage hero banner loads content from the Welsh Mewngofnodi i’r gwasanaeth gwartheg button" time="0.050" classname="loads content from the Welsh Mewngofnodi i’r gwasanaeth gwartheg button">
+    </testcase>
+    <testcase name="Homepage hero banner loads content from the Welsh Gwasanaeth presennol ar gyfer defaid, geifr a cheirw button" time="0.050" classname="loads content from the Welsh Gwasanaeth presennol ar gyfer defaid, geifr a cheirw button">
+    </testcase>
+  </testsuite>
+  <testsuite name="Homepage cookie banner" timestamp="2026-07-06T10:26:07" tests="2" time="0.282" failures="0">
+    <testcase name="Homepage cookie banner links to the English cookie settings page" time="0.133" classname="links to the English cookie settings page">
+    </testcase>
+    <testcase name="Homepage cookie banner links to the Welsh cookie settings page" time="0.131" classname="links to the Welsh cookie settings page">
+    </testcase>
+  </testsuite>
+  <testsuite name="English Services home" timestamp="2026-07-06T10:26:07" tests="1" time="0.078" failures="0">
+    <testcase name="English Services home renders the home cards and language toggle" time="0.067" classname="renders the home cards and language toggle">
+    </testcase>
+  </testsuite>
+  <testsuite name="Welsh Services home" timestamp="2026-07-06T10:26:07" tests="1" time="0.068" failures="0">
+    <testcase name="Welsh Services home renders the home cards and language toggle" time="0.059" classname="renders the home cards and language toggle">
+    </testcase>
+  </testsuite>
+</testsuites>
